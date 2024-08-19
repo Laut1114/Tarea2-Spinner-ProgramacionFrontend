@@ -19,11 +19,23 @@ html body {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    gap: 50px;
+    
     background: url("/assets/firefox.webp") center;
     background-size: cover;
     background-color: rgba(0, 0, 0, 0.7);
     background-blend-mode: overlay; 
+}
+
+.spin-container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    gap: 50px;
 }
 
 @keyframes spin {
@@ -70,6 +82,6 @@ footer {
     align-items: center;
     bottom: 0%;
     color: aliceblue;
-    background-color: #212f3c;
-    border-radius: 5px;
+    font-family: "Space Mono", monospace;
+    font-weight: 700;
 }
